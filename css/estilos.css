@@ -1,0 +1,15 @@
+body {
+    background-image: url("../imagens/beauty-conceptual-nail-polish-1029894.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+/*CSS para colocar a div do login centralizada*/
+.divcenter {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+}

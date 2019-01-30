@@ -1,0 +1,114 @@
+body {
+    background-image: url("../imagens/beauty-conceptual-nail-polish-1029894.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+/*CSS para colocar a div do login centralizada*/
+.divcenter {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+}
+
+/* CSS para colocar o botão centralizado */
+.divButton {
+    text-align: center;
+}
+
+/* CSS do bootstrap mas sem o outline, isto para os inputs */
+.inputs {
+    display: block;
+    width: 100%;
+    height: calc(2.25rem + 2px);
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #41484e;
+    background-clip: padding-box;
+    border: 2px solid #ced4da;
+    border-radius: .40rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+/* CSS para os inputs do login e do registo */
+input[type=email], input[type=email]:focus, input[type=password], input[type=password]:focus {
+    background-color: #F0F0F0;
+}
+
+input[type=email], input[type=password] {
+    outline: none !important;
+}
+
+input[type=email]:focus, input[type=password]:focus {
+    border: 2px solid #787878;
+}
+
+/* CSS relativos ao botão de login */
+.btnRegisto {
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    background-color: #FF3366;
+    width: 50%;
+}
+
+/* CSS para centralizar o formulário de login*/
+.centered {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* CSS para o titulo */
+.titulo {
+    text-align: center;
+    font-family: 'Charmonman', cursive;
+    font-size: 65px;
+    font-style: italic;
+    padding-bottom: 30px;
+}
+
+.spanErro {
+    color: red;
+    font-style: italic;
+}
+
+.divPassword {
+    margin-bottom: 35px;
+}
+
+/* CSS Responsives */
+@media only screen and (max-width: 400px) {
+    .divcenter {
+        width: 100%;
+    }
+
+    .btnRegisto {
+        width: 100%;
+    }
+
+    .titulo {
+        font-size: 80px;
+        padding-bottom: 10px;
+    }
+}
+
+@media only screen and (min-width: 401px) and (max-width: 1000px) {
+    .divcenter {
+        width: 75%;
+    }
+
+    .btnRegisto {
+        width: 50%;
+    }
+
+    .titulo {
+        font-size: 100px;
+        padding-bottom: 20px;
+    }
+}
